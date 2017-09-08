@@ -1,20 +1,26 @@
 # BIRD STORE
-To store bird information in mongodb using django
+BirdyMongo is engine that store information of birds and helps
+to retrieve it when request via api.
 
-Installation:
+Its a excersie to get an hold on `http CRUD` methods.
 
-pip install -r requirements.txt
+BirdyMongo comes handy for those who likes to learn basic
+`Django` application that run over Mongo store.
 
-Run-Server:
+  Installation:
 
-python manage.py runserver
+    `pip install -r requirements.txt`
 
-URLS:
+  Run-Server:
 
-GET /birds - List all birds,
+    `python manage.py runserver`
 
-POST /birds - Add a new bird,
+  URLS:
 
-GET /birds/{id} - Get details on a specific bird,
+    GET /birds - List all birds,
 
-DELETE /birds/{id} - Delete a bird by id
+    POST /birds - Add a new bird,
+
+    GET /birds/{id} - Get details on a specific bird,
+
+    DELETE /birds/{id} - Delete a bird by id
