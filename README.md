@@ -9,11 +9,11 @@ BirdyMongo comes handy for those who likes to learn basic
 
   Installation:
 
-    `pip install -r requirements.txt`
+    pip install -r requirements.txt
 
   Run-Server:
 
-    `python manage.py runserver`
+    python manage.py runserver
 
   URLS:
 
